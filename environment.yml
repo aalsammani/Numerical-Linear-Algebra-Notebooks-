@@ -1,0 +1,12 @@
+# Conda environment for the notebooks (the tested setup used pip; see README).
+#   conda env create -f environment.yml
+#   conda activate nla-notebooks
+name: nla-notebooks
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy>=2.0,<3
+  - scipy>=1.15
+  - matplotlib>=3.9
+  - jupyterlab>=4.0
